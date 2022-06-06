@@ -9,6 +9,7 @@ call plug#begin()
 " Plug 'drewtempelmeyer/palenight.vim'
 " Plug 'one-dark/onedark.nvim'
 " Plug 'vim-airline/vim-airline'
+Plug 'habamax/vim-godot'
 Plug 'wlangstroth/vim-racket'
 Plug 'sheerun/vim-polyglot'
 Plug 'rust-lang/rust.vim'
