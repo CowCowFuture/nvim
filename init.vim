@@ -19,7 +19,7 @@ Plug 'luochen1990/rainbow'
 Plug 'vim-syntastic/syntastic'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
-Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'neoclide/coc.nvim'
 Plug 'tommcdo/vim-lion'
 Plug 'Shirk/vim-gas'
 Plug 'luisiacc/gruvbox-baby'
