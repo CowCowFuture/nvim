@@ -8,7 +8,7 @@ call plug#begin('~/.config/nvim/plugged')
 call plug#begin()
 " Plug 'drewtempelmeyer/palenight.vim'
 " Plug 'one-dark/onedark.nvim'
-" Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline'
 Plug 'habamax/vim-godot'
 Plug 'wlangstroth/vim-racket'
 Plug 'sheerun/vim-polyglot'
@@ -17,13 +17,12 @@ Plug 'preservim/tagbar'
 Plug 'universal-ctags/ctags'
 Plug 'luochen1990/rainbow'
 Plug 'vim-syntastic/syntastic'
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'neoclide/coc.nvim'
 Plug 'tommcdo/vim-lion'
 Plug 'Shirk/vim-gas'
-Plug 'luisiacc/gruvbox-baby'
-Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'morhetz/gruvbox'
 Plug 'ntpeters/vim-better-whitespace'
 
 " Autocomplete parenthesis
@@ -286,12 +285,13 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 set background=dark
 
 " Old value: one
-let g:lightline = { 'colorscheme': 'gruvbox' }
+" let g:lightline = { 'colorscheme': 'gruvbox' }
+let g:airline = { 'colorscheme': 'gruvbox' }
 
 " Theme
 " colorscheme palenight
 " colorscheme onedark
-colorscheme gruvbox-baby
+colorscheme gruvbox
 
 
 " autocmd VimEnter * call lightline#colorscheme()
