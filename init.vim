@@ -5,9 +5,16 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 call plug#begin('~/.config/nvim/plugged')
 
+function! BuildYCM(info)
+  if a:info.status == 'installed' || a:info.force
+    !./install.py
+  endif
+endfunction
+
 call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'wlangstroth/vim-racket'
+Plug 'ycm-core/YouCompleteMe', { 'do': function('BuildYCM') }
 Plug 'sheerun/vim-polyglot'
 Plug 'rust-lang/rust.vim'
 Plug 'preservim/tagbar'
