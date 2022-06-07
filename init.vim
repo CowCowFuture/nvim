@@ -6,10 +6,7 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 call plug#begin()
-" Plug 'drewtempelmeyer/palenight.vim'
-" Plug 'one-dark/onedark.nvim'
 Plug 'vim-airline/vim-airline'
-Plug 'habamax/vim-godot'
 Plug 'wlangstroth/vim-racket'
 Plug 'sheerun/vim-polyglot'
 Plug 'rust-lang/rust.vim'
@@ -17,7 +14,6 @@ Plug 'preservim/tagbar'
 Plug 'universal-ctags/ctags'
 Plug 'luochen1990/rainbow'
 Plug 'vim-syntastic/syntastic'
-" Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'neoclide/coc.nvim'
 Plug 'tommcdo/vim-lion'
