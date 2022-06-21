@@ -1,5 +1,5 @@
 # Dependencies
-[nodejs](https://nodejs.org/) and [yarn](https://yarnpkg.com/)
+[nodejs](https://nodejs.org/), [yarn](https://yarnpkg.com/), and [cmake](https://cmake.org/)
 
 # Installation
 1. Clone this repo to your neovim folder
